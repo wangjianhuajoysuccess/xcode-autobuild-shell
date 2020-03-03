@@ -83,10 +83,4 @@ echo '*** 打包完成 ***'
 最后会在桌面上生成打包完成的ipa文件夹。
 
 
--------
-参考文章：
-
-[iOS 制作自动打包脚本 Xcode8.3.2](http://www.cnblogs.com/ficow/p/6823962.html)
-[自动打包脚本](https://github.com/PurpleSweetPotatoes/AutoBuild-ipa)
-
 
