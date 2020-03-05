@@ -2,10 +2,15 @@
 
 #写入内容文件的地址
 ipchangeFilePath=/Users/wangjianhua/Desktop/user_pages
+#plist文件名称
+ipchangeFileName=ipchange.plist
+#plist文件key
+plistKey=ip
 
 
 echo "请输入目标ip代号"
 read a
 echo "你输入的ip代号为：$a"
 cd $ipchangeFilePath
-echo $a > file1
+/usr/libexec/PlistBuddy -c "Set $plistKey $a" $ipchangeFileName
+
