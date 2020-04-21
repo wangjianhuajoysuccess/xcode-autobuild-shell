@@ -18,7 +18,7 @@ beginTime=`date +%s`
 # shellcheck disable=SC2006
 ipabeginTime=`date +%Y-%m-%d%H:%M:%S`
 
-#导出.ipa文件所在路径
+#导出.ipa文件所在路径  切记修改为本地的路径 否则会报错
 exportFilePath=/XcodeExportProject/$project_name/$project_name-$ipabeginTime-adhoc-ipa
 
 
